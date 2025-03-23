@@ -6,6 +6,7 @@ body {
     color: #f5f6f7;
     font-family: Tahoma;
     font-size: 16px;
+    padding: 0 2px 0 2px;
 
 }
 
@@ -14,10 +15,10 @@ form {
     max-width: 600px;
     min-width: 300px;
     margin: 0 auto;
-    padding-bottom: 2em;
     background-color: #4343c0;
-    border-radius: 10px;
-    
+    border-radius: 5px;
+    padding: 2em 2em 2em 2em;
+   
 }
 
 h1, p {
@@ -31,14 +32,47 @@ p {
 
 fieldset {
     border: none;
-    padding: 2rem 0;
-    border-bottom: 3px solid;
+    border-bottom: 3px solid #4343c0;
 }
 
 label {
     display: block;
+    margin: 1rem;
 }
 
 option {
     display: block;
+}
+
+input[type="submit"] {
+    display:block;
+    width: 100%;
+    margin: 1em auto;
+
+}
+
+input[type=text] {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border: 5px;
+}
+
+input[type=number] {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border: 5px;
+}
+
+input[type=email] {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border: 5px;
+}
+
+select {
+    width: 100%;
+    min-height: 2em;
 }
